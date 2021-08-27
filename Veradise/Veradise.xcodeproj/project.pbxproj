@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9012C31326C6868000B1CE15 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012C31226C6868000B1CE15 /* CardView.swift */; };
+		9012C31526C6A17400B1CE15 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012C31426C6A17400B1CE15 /* Global.swift */; };
+		9020092126C05BC300AB0A5F /* VeradiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020092026C05BC300AB0A5F /* VeradiseApp.swift */; };
+		9020092326C05BC300AB0A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020092226C05BC300AB0A5F /* ContentView.swift */; };
+		9020092526C05BC300AB0A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9020092426C05BC300AB0A5F /* Assets.xcassets */; };
+		9020092826C05BC300AB0A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9020092726C05BC300AB0A5F /* Preview Assets.xcassets */; };
+		9020092A26C05BC300AB0A5F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020092926C05BC300AB0A5F /* Persistence.swift */; };
+		9020092D26C05BC300AB0A5F /* Veradise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9020092B26C05BC300AB0A5F /* Veradise.xcdatamodeld */; };
+		9020093926C05CCC00AB0A5F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020093826C05CCC00AB0A5F /* TabBar.swift */; };
+		9020093B26C05EC800AB0A5F /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020093A26C05EC800AB0A5F /* NavBar.swift */; };
+		9020093E26C0614900AB0A5F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020093D26C0614900AB0A5F /* ProfileView.swift */; };
+		9020094026C063D100AB0A5F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020093F26C063D100AB0A5F /* Extension.swift */; };
+		905373FD26CA9599000ADBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905373FC26CA9599000ADBDC /* Assets.xcassets */; };
+		9053740426CA9599000ADBDC /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9053740326CA9599000ADBDC /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9053740926CA9599000ADBDC /* VeradiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9053740826CA9599000ADBDC /* VeradiseApp.swift */; };
+		9053740B26CA9599000ADBDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9053740A26CA9599000ADBDC /* ContentView.swift */; };
+		9053740D26CA9599000ADBDC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9053740C26CA9599000ADBDC /* NotificationController.swift */; };
+		9053740F26CA9599000ADBDC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9053740E26CA9599000ADBDC /* NotificationView.swift */; };
+		9053741126CA9599000ADBDC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9053741026CA9599000ADBDC /* ComplicationController.swift */; };
+		9053741326CA959A000ADBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9053741226CA959A000ADBDC /* Assets.xcassets */; };
+		9053741626CA959A000ADBDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9053741526CA959A000ADBDC /* Preview Assets.xcassets */; };
+		9053741B26CA959A000ADBDC /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 905373FA26CA9596000ADBDC /* Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90C88CD626C7D33800CB2EB6 /* BackupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C88CD526C7D33800CB2EB6 /* BackupCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9053740526CA9599000ADBDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9020091526C05BC300AB0A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9053740226CA9599000ADBDC;
+			remoteInfo = "Watch Extension";
+		};
+		9053741926CA959A000ADBDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9020091526C05BC300AB0A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905373F926CA9596000ADBDC;
+			remoteInfo = Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9053741F26CA959A000ADBDC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9053740426CA9599000ADBDC /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9053742326CA959A000ADBDC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9053741B26CA959A000ADBDC /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9012C31226C6868000B1CE15 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9012C31426C6A17400B1CE15 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		9020091D26C05BC300AB0A5F /* Veradise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veradise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9020092026C05BC300AB0A5F /* VeradiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeradiseApp.swift; sourceTree = "<group>"; };
+		9020092226C05BC300AB0A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9020092426C05BC300AB0A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9020092726C05BC300AB0A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9020092926C05BC300AB0A5F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9020092C26C05BC300AB0A5F /* Veradise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Veradise.xcdatamodel; sourceTree = "<group>"; };
+		9020092E26C05BC300AB0A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9020093826C05CCC00AB0A5F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9020093A26C05EC800AB0A5F /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		9020093D26C0614900AB0A5F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9020093F26C063D100AB0A5F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		905373F726C9453F000ADBDC /* Veradise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Veradise.entitlements; sourceTree = "<group>"; };
+		905373FA26CA9596000ADBDC /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905373FC26CA9599000ADBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905373FE26CA9599000ADBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9053740326CA9599000ADBDC /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9053740826CA9599000ADBDC /* VeradiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeradiseApp.swift; sourceTree = "<group>"; };
+		9053740A26CA9599000ADBDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9053740C26CA9599000ADBDC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9053740E26CA9599000ADBDC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9053741026CA9599000ADBDC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9053741226CA959A000ADBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9053741526CA959A000ADBDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9053741726CA959A000ADBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9053741826CA959A000ADBDC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		90C88CD526C7D33800CB2EB6 /* BackupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9020091A26C05BC300AB0A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9053740026CA9599000ADBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9012C31126C6867400B1CE15 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				9012C31226C6868000B1CE15 /* CardView.swift */,
+				90C88CD526C7D33800CB2EB6 /* BackupCardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		9020091426C05BC300AB0A5F = {
+			isa = PBXGroup;
+			children = (
+				9020091F26C05BC300AB0A5F /* Veradise */,
+				905373FB26CA9596000ADBDC /* Watch */,
+				9053740726CA9599000ADBDC /* Watch Extension */,
+				9020091E26C05BC300AB0A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9020091E26C05BC300AB0A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9020091D26C05BC300AB0A5F /* Veradise.app */,
+				905373FA26CA9596000ADBDC /* Watch.app */,
+				9053740326CA9599000ADBDC /* Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9020091F26C05BC300AB0A5F /* Veradise */ = {
+			isa = PBXGroup;
+			children = (
+				905373F726C9453F000ADBDC /* Veradise.entitlements */,
+				9020093726C05C7A00AB0A5F /* Global */,
+				9020093626C05C2800AB0A5F /* ViewModel */,
+				9020093526C05C2100AB0A5F /* View */,
+				9020093426C05C1700AB0A5F /* Model */,
+				9020092026C05BC300AB0A5F /* VeradiseApp.swift */,
+				9020092226C05BC300AB0A5F /* ContentView.swift */,
+				9020092426C05BC300AB0A5F /* Assets.xcassets */,
+				9020092926C05BC300AB0A5F /* Persistence.swift */,
+				9020092E26C05BC300AB0A5F /* Info.plist */,
+				9020092626C05BC300AB0A5F /* Preview Content */,
+			);
+			path = Veradise;
+			sourceTree = "<group>";
+		};
+		9020092626C05BC300AB0A5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9020092726C05BC300AB0A5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9020093426C05C1700AB0A5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9020092B26C05BC300AB0A5F /* Veradise.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9020093526C05C2100AB0A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9012C31126C6867400B1CE15 /* Card */,
+				9020093C26C0613C00AB0A5F /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9020093626C05C2800AB0A5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9020093726C05C7A00AB0A5F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9020093826C05CCC00AB0A5F /* TabBar.swift */,
+				9020093A26C05EC800AB0A5F /* NavBar.swift */,
+				9020093F26C063D100AB0A5F /* Extension.swift */,
+				9012C31426C6A17400B1CE15 /* Global.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		9020093C26C0613C00AB0A5F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9020093D26C0614900AB0A5F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		905373FB26CA9596000ADBDC /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				905373FC26CA9599000ADBDC /* Assets.xcassets */,
+				905373FE26CA9599000ADBDC /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		9053740726CA9599000ADBDC /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9053740826CA9599000ADBDC /* VeradiseApp.swift */,
+				9053740A26CA9599000ADBDC /* ContentView.swift */,
+				9053740C26CA9599000ADBDC /* NotificationController.swift */,
+				9053740E26CA9599000ADBDC /* NotificationView.swift */,
+				9053741026CA9599000ADBDC /* ComplicationController.swift */,
+				9053741226CA959A000ADBDC /* Assets.xcassets */,
+				9053741726CA959A000ADBDC /* Info.plist */,
+				9053741826CA959A000ADBDC /* PushNotificationPayload.apns */,
+				9053741426CA959A000ADBDC /* Preview Content */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		9053741426CA959A000ADBDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9053741526CA959A000ADBDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9020091C26C05BC300AB0A5F /* Veradise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9020093126C05BC300AB0A5F /* Build configuration list for PBXNativeTarget "Veradise" */;
+			buildPhases = (
+				9020091926C05BC300AB0A5F /* Sources */,
+				9020091A26C05BC300AB0A5F /* Frameworks */,
+				9020091B26C05BC300AB0A5F /* Resources */,
+				9053742326CA959A000ADBDC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9053741A26CA959A000ADBDC /* PBXTargetDependency */,
+			);
+			name = Veradise;
+			productName = Veradise;
+			productReference = 9020091D26C05BC300AB0A5F /* Veradise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		905373F926CA9596000ADBDC /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9053742026CA959A000ADBDC /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				905373F826CA9596000ADBDC /* Resources */,
+				9053741F26CA959A000ADBDC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9053740626CA9599000ADBDC /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 905373FA26CA9596000ADBDC /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9053740226CA9599000ADBDC /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9053741C26CA959A000ADBDC /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				905373FF26CA9599000ADBDC /* Sources */,
+				9053740026CA9599000ADBDC /* Frameworks */,
+				9053740126CA9599000ADBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 9053740326CA9599000ADBDC /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9020091526C05BC300AB0A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9020091C26C05BC300AB0A5F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					905373F926CA9596000ADBDC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9053740226CA9599000ADBDC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9020091826C05BC300AB0A5F /* Build configuration list for PBXProject "Veradise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9020091426C05BC300AB0A5F;
+			productRefGroup = 9020091E26C05BC300AB0A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9020091C26C05BC300AB0A5F /* Veradise */,
+				905373F926CA9596000ADBDC /* Watch */,
+				9053740226CA9599000ADBDC /* Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9020091B26C05BC300AB0A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9020092826C05BC300AB0A5F /* Preview Assets.xcassets in Resources */,
+				9020092526C05BC300AB0A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905373F826CA9596000ADBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905373FD26CA9599000ADBDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9053740126CA9599000ADBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9053741626CA959A000ADBDC /* Preview Assets.xcassets in Resources */,
+				9053741326CA959A000ADBDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9020091926C05BC300AB0A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9020092D26C05BC300AB0A5F /* Veradise.xcdatamodeld in Sources */,
+				9012C31326C6868000B1CE15 /* CardView.swift in Sources */,
+				9020092A26C05BC300AB0A5F /* Persistence.swift in Sources */,
+				90C88CD626C7D33800CB2EB6 /* BackupCardView.swift in Sources */,
+				9020092326C05BC300AB0A5F /* ContentView.swift in Sources */,
+				9020092126C05BC300AB0A5F /* VeradiseApp.swift in Sources */,
+				9020093926C05CCC00AB0A5F /* TabBar.swift in Sources */,
+				9020093E26C0614900AB0A5F /* ProfileView.swift in Sources */,
+				9020093B26C05EC800AB0A5F /* NavBar.swift in Sources */,
+				9012C31526C6A17400B1CE15 /* Global.swift in Sources */,
+				9020094026C063D100AB0A5F /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905373FF26CA9599000ADBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9053740D26CA9599000ADBDC /* NotificationController.swift in Sources */,
+				9053740B26CA9599000ADBDC /* ContentView.swift in Sources */,
+				9053741126CA9599000ADBDC /* ComplicationController.swift in Sources */,
+				9053740926CA9599000ADBDC /* VeradiseApp.swift in Sources */,
+				9053740F26CA9599000ADBDC /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9053740626CA9599000ADBDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9053740226CA9599000ADBDC /* Watch Extension */;
+			targetProxy = 9053740526CA9599000ADBDC /* PBXContainerItemProxy */;
+		};
+		9053741A26CA959A000ADBDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905373F926CA9596000ADBDC /* Watch */;
+			targetProxy = 9053741926CA959A000ADBDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9020092F26C05BC300AB0A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9020093026C05BC300AB0A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9020093226C05BC300AB0A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Veradise/Veradise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Veradise/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Veradise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9020093326C05BC300AB0A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Veradise/Veradise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Veradise/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Veradise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9053741D26CA959A000ADBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		9053741E26CA959A000ADBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		9053742126CA959A000ADBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		9053742226CA959A000ADBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4FVKJHX54;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Veradise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9020091826C05BC300AB0A5F /* Build configuration list for PBXProject "Veradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9020092F26C05BC300AB0A5F /* Debug */,
+				9020093026C05BC300AB0A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9020093126C05BC300AB0A5F /* Build configuration list for PBXNativeTarget "Veradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9020093226C05BC300AB0A5F /* Debug */,
+				9020093326C05BC300AB0A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9053741C26CA959A000ADBDC /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9053741D26CA959A000ADBDC /* Debug */,
+				9053741E26CA959A000ADBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9053742026CA959A000ADBDC /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9053742126CA959A000ADBDC /* Debug */,
+				9053742226CA959A000ADBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9020092B26C05BC300AB0A5F /* Veradise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9020092C26C05BC300AB0A5F /* Veradise.xcdatamodel */,
+			);
+			currentVersion = 9020092C26C05BC300AB0A5F /* Veradise.xcdatamodel */;
+			path = Veradise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9020091526C05BC300AB0A5F /* Project object */;
+}
